@@ -1,0 +1,10 @@
+#include <string>
+#include <vector>
+
+using namespace std;
+
+int solution(int n, int k) {
+    int lambCost = n * 12000;
+    int drinkCost = (k - (n / 10)) * 2000;
+    return lambCost + drinkCost;
+}
